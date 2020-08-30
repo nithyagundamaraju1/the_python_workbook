@@ -1,0 +1,11 @@
+tax_rate=15
+cost=float(input("Enter the cost of your meal: "))
+tip=float((cost*18)/100)
+tax_amnt=float ((cost*tax_rate)/100)
+total=float(cost+tax_amnt)
+print("************************************************************************************************************")
+print("Cost of the Meal: $"+"{:.2f}".format(cost))
+print("Tip amount: $"+"{:.2f}".format(tip))
+print("Tax amount: $"+"{:.2f}".format(tax_amnt))
+print("Grand Total: $"+"{:.2f}".format(total))
+print("************************************************************************************************************")
