@@ -35,6 +35,6 @@ def numbertoordinal(number):
                 suffix = 'th'
     return str(number)+ suffix
 
-n=int(input("Enter a num:"))
-print(numbertoordinal(n))
+for i in range(0,13):
+    print(f"{i}-->{numbertoordinal(i)}")
 
